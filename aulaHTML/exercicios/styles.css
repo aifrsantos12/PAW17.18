@@ -26,3 +26,29 @@ img {
   width: auto;
   height: auto;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.coluna {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.linha:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.info a {
+    background-color: #eee; /* background cinza */
+    color: black; /* Menus de cor preta texto */
+    padding: 12px; /* Preenchimento */
+    text-decoration: none;
+}
