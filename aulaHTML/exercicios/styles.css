@@ -1,0 +1,28 @@
+.menu {
+    width: 500px;
+}
+
+.menu a {
+    background-color: #eee; /* background cinza */
+    color: black; /* Menus de cor preta texto */
+    display: block; /* Menu vertical */
+    padding: 12px; /* Preenchimento */
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ccc; /* Background cinza com o passar do rato */
+}
+
+.menu a.cor {
+    background-color: #F08080; /* Cor verde para a opção */
+    color: white;
+}
+
+img {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
